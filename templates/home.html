@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>keDevForum</title>
+  <style>
+    body {
+      background: black;
+      color: white;
+    }
+
+    @keyframes zoom {
+      0% {
+        background-size: 0%;
+        opacity: 1;
+      }
+
+      100% {
+        background-size: 450%;
+        opacity: 1;
+      }
+    }
+
+    @keyframes zoomtext {
+      0% {
+        background-size: 0%;
+        opacity: 1;
+      }
+
+      100% {
+        background-size: 1500%;
+        opacity: 1;
+      }
+    }
+
+    .osi,
+    .osi2,
+    h1 {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 70vh;
+      background-image: url("data:image/svg+xml,%0A%3Csvg width='467' height='450' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M260.359 308.016c32.258-11.98 49.098-35.05 49.098-74.757 0-39.708-33.461-74.696-75.27-74.766-44.121-.07-77.402 34.914-76.871 74.766.531 39.85 19.539 66.363 49.957 75.949l-53.886 132.57C81.265 423.106 7.914 338.024 7.914 233.258c0-124.085 99.703-224.68 224.672-224.68 124.968 0 226.273 100.595 226.273 224.68 0 106.395-72.656 190.293-146.316 208.89l-52.184-134.132z' fill='%233DA638'/%3E%3Cpath d='M260.359 308.016c32.258-11.98 49.098-35.05 49.098-74.757 0-39.708-33.461-74.696-75.27-74.766-44.121-.07-77.402 34.914-76.871 74.766.531 39.85 19.539 66.363 49.957 75.949l-53.886 132.57C81.265 423.106 7.914 338.024 7.914 233.258c0-124.085 99.703-224.68 224.672-224.68 124.968 0 226.273 100.595 226.273 224.68 0 106.395-72.656 190.293-146.316 208.89l-52.184-134.132z' stroke='%231C511C' stroke-width='15.37' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/g%3E%3C/svg%3E");
+      background-position: center bottom;
+      background-repeat: no-repeat;
+      animation: zoom 7s infinite;
+      animation-timing-function: linear;
+      animation-loop: forever;
+    }
+
+    .osi+.osi,
+    .osi2+.osi2 {
+      animation-delay: 3.5s;
+      opacity: 0;
+    }
+
+    .osi2 {
+      top: 70vh;
+      height: 30vh;
+      transform: rotate(180deg);
+    }
+
+    h1 {
+      display: block;
+      margin: 0;
+      padding: 0;
+      opacity: 0;
+      animation: zoomtext 14s infinite;
+      z-index: 2;
+      animation-delay: 5s;
+      overflow: hidden;
+      text-indent: -100em;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='451' height='442' viewBox='0 0 451 442'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Ctext fill='%23FFF' font-family='HelveticaNeue-CondensedBold, Helvetica Neue' font-size='58.6' font-style='condensed' font-weight='bold' letter-spacing='-.1'%3E%3Ctspan x='54' y='420'%3ECOMING SOON%3C/tspan%3E%3C/text%3E%3C/g%3E%3C/svg%3E");
+    }
+
+    h1:after {
+      content: " ";
+      position: fixed;
+      display: block;
+      margin: 0;
+      padding: 0;
+      opacity: 1;
+      left: 0;
+      width: 100vw;
+      top: 70vh;
+      z-index: -4;
+      height: 30vh;
+      transform: scale(1, -1);
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='451' height='442' viewBox='0 0 451 442'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Ctext fill='%23FFF' font-family='HelveticaNeue-CondensedBold, Helvetica Neue' font-size='58.6' font-style='condensed' font-weight='bold' letter-spacing='-.1'%3E%3Ctspan x='54' y='420'%3ECOMING SOON%3C/tspan%3E%3C/text%3E%3C/g%3E%3C/svg%3E");
+      background-position: center bottom;
+      background-repeat: no-repeat;
+      animation-timing-function: linear;
+      animation-loop: forever;
+      animation: zoomtext 14s infinite;
+      animation-delay: 5s;
+    }
+
+    .black {
+      display: block;
+      position: absolute;
+      top: 70vh;
+      left: 0;
+      width: 100vw;
+      height: 30vh;
+      z-index: 10;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.5032387955) 0%, black 100%);
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Welcome keDevForum Open Source project</h1>
+  <div class="osi"></div>
+  <div class="osi"></div>
+  <div class="osi2"></div>
+  <div class="osi2"></div>
+  <div class="black"></div>
+  <br>
+
+</body>
+
+</html>
