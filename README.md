@@ -1,12 +1,12 @@
-# keDevForum
+# 👩🏿‍💻 keDevForum V1 👨🏿‍💻
 
-<img src="https://umeskiasoftwares.com/products/1659548991.png"  alt="keDevlogo">
+<img src="https://umeskiasoftwares.com/products/1659548991.png" width:100%; height:100px; alt="keDevlogo">
 
 Participate in the development of keDevForum
 
 TECH STACK
 
-=> React
+=> JS React
 
 => Python Django
 
