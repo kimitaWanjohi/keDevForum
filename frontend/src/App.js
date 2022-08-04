@@ -1,15 +1,15 @@
+import React from "react";
 import "./App.css";
+import Navbar from "./apps/nav";
+import Home from "./apps/home";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img
-          src={"https://umeskiasoftwares.com/products/1659548991.png"}
-          alt="logo"
-        />
-        <p>Welcome keDevForum Open Source projec</p>
-      </header>
+      <Navbar />
+      <div className="componets">
+        <Home />
+      </div>
     </div>
   );
 }

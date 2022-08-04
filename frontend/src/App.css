@@ -1,11 +1,30 @@
 .App {
   text-align: center;
-  background-color: aliceblue;
+  width: 100%;
+  margin: 0;
+  color: rgb(0, 0, 0);
+  padding-bottom: 5%;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.navgator {
+  display: flex;
+  justify-content: center
+}
+
+.btm {
+  margin-right: 2%;
+  background: #8500b1;
+  padding: 10px;
+  border-radius: 10%;
+  color: aliceblue;
+  font-weight: bold;
+  outline: none;
+  border: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
