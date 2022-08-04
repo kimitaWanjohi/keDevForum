@@ -1,11 +1,5 @@
 # 👩🏿‍💻 keDevForum V1 👨🏿‍💻
 
-<<<<<<< HEAD
-<img src="https://umeskiasoftwares.com/products/1659548991.png" style="width:100%; height:300px;" alt="keDevlogo">
-=======
-<img src="https://umeskiasoftwares.com/products/1659548991.png" style="width:100px; height:100px;" alt="keDevlogo">
->>>>>>> 9a9ccb759b3de6bb466b785f9d78e859dad286e0
-
 Participate in the development of keDevForum
 
 TECH STACK
